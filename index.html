@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page personal de un analista en ciberseguridad">
+    <title>🔐 Esteban Nuñez Cuellar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <!-- Video de fondo -->
+    <section class="principal">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./sobre-mi/index.html">👋 Sobre Mí |</a></li>
+                    <li><a href="#skills">Habilidades |</a></li>
+                    <li><a href="#projects">Mis Certificaciones |</a></li>
+                    <li><a href="#social-media">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <video autoplay muted loop id="bg-video" playsinline>
+            <source src="images/presentacion.mp4" type="video/mp4">
+            <source src="images/presentacion.webm" type="video/webm">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+
+        <div class="principal-contenido">
+            <h1>Hola, soy Esteban Nuñez</h1>
+            <h2>Anlista especializado en Ciberseguridad</h2>
+            <p id="dynamic-text">Auditorías de ciberseguridad.</p>
+            <a href="#skills" class="cta-button">¿Cómo te puedo ayudar?</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Soy un analista especializado en ciberseguridad en equipos Blue Team & SOC.</p>
+        <p>Mi experiencia incluye una amplia gama de habilidades y conocimientos en la informática y ciberseguridad.</p>
+        <p>No dudes en <a href="https://www.linkedin.com/in/esteban111221/" target="_blank" style="font-weight: bold; color: white; text-decoration: none;">Contactar</a>.</p>
+        <a href="https://linktr.ee/esteban111221" class="cta-button" target="_blank">
+            <i class="bi bi-envelope"></i> Conóceme
+        </a>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item" data-skill="Ciberseguridad / Hacking Ético">
+                <h3>Ciberseguridad / Hacking Ético</h3>
+                <p>Identificando vulnerabilidades y brechas en sistemas de seguridad.</p>
+                <a href="#" class="cta-button">Más información</a>
+            </div>
+            <div class="skill-item" data-skill="Capacitaciónes">
+                <h3>Capacitación</h3>
+                <p>Desarrollo de habilidades para proteger la integridad y confidencialidad de la información.</p>
+                <a href="#" class="cta-button">Más información</a>
+            </div>
+            <div class="skill-item" data-skill="Programación">
+                <h3>Programación</h3>
+                <p>Despliegue y configuración de sistemas avanzados de defensa.</p>
+                <a href="#" class="cta-button">Más información</a>
+            </div>
+        </div>
+    </section>
+    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h3 id="popup-title"></h3>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <section id="servicios">
+        <h2>Mis Servicios</h2>
+        <div class="services-list">
+            <div class="service-item" data-delay="0">
+                <h3>Securización de Servidores</h3>
+                <p>Protección avanzada de servidores contra ataques y vulnerabilidades.</p>
+            </div>
+            <div class="service-item" data-delay="0.2s">
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web seguros, eficientes y escalables.</p>
+                <p>Securización y mantenimiento tanto del VPS como del servidor web.</p>
+            </div>
+            <div class="service-item" data-delay="0.4s">
+                <h3>Docencia de informática</h3>
+                <p>Clases de programación, ciberseguridad, bases de datos y demás materias para los niveles basicos.</p>
+            </div>
+            <div class="service-item" data-delay="0.6s">
+                <h3>Linux y Sistemas Operativos</h3>
+                <p>Administración, instalación y optimización de sistemas Linux.</p>
+            </div>
+            <div class="service-item" data-delay="0.8s">
+                <h3>Asesoría en Informática General</h3>
+                <p>Soporte y soluciones tecnológicas adaptadas a tus necesidades.</p>
+            </div>
+    </section>
+
+    <section id="seccion-galeria">
+        <div class="image-gallery">
+            <a  target="_blank">
+                <img src="images/python.webp" alt="Python">
+            </a>
+            <a target="_blank">
+                <img src="images/bash.png" alt="Bash">
+            </a>
+            <a target="_blank">
+                <img src="images/kali.png" alt="Kali Linux">
+            </a>
+            <a target="_blank">
+                <img src="images/js.png" alt="JavaScript">
+            </a>
+            <a target="_blank">
+                <img src="images/secure.png" alt="Seguridad">
+            </a>
+            <a target="_blank">
+                <img src="images/java.webp" alt="Java">
+            </a>
+            <a target="_blank">
+                <img src="images/sql.png" alt="SQL">
+            </a>
+            <a target="_blank">
+                <img src="images/tux.webp" alt="Linux Tux">
+            </a>
+            <a target="_blank">
+                <img src="images/mongo.svg" alt="MongoDB">
+            </a>
+            <a target="_blank">
+                <img src="images/redes.png" alt="Redes">
+            </a>
+            <a target="_blank">
+                <img src="images/html.png" alt="HTML">
+            </a>
+            <a target="_blank">
+                <img src="images/css.png" alt="CSS">
+            </a>
+            <a target="_blank">
+                <img src="images/docker.webp" alt="Docker">
+            </a>
+            <a target="_blank">
+                <img src="images/python.webp" alt="Python">
+            </a>
+            <a target="_blank">
+                <img src="images/bash.png" alt="Bash">
+            </a>
+            <a target="_blank">
+                <img src="images/kali.png" alt="Kali Linux">
+            </a>
+            <a target="_blank">
+                <img src="images/js.png" alt="JavaScript">
+            </a>
+            <a target="_blank">
+                <img src="images/secure.png" alt="Seguridad">
+            </a>
+            <a target="_blank">
+                <img src="images/java.webp" alt="Java">
+            </a>
+            <a target="_blank">
+                <img src="images/sql.png" alt="SQL">
+            </a>
+            <a target="_blank">
+                <img src="images/tux.webp" alt="Linux Tux">
+            </a>
+            <a target="_blank">
+                <img src="images/mongo.svg" alt="MongoDB">
+            </a>
+            <a target="_blank">
+                <img src="images/redes.png" alt="Redes">
+            </a>
+            <a target="_blank">
+                <img src="images/html.png" alt="HTML">
+            </a>
+            <a target="_blank">
+                <img src="images/css.png" alt="CSS">
+            </a>
+            <a target="_blank">
+                <img src="images/docker.webp" alt="Docker">
+            </a>
+            <a target="_blank">
+                <img src="images/python.webp" alt="Python">
+            </a>
+            <a arget="_blank">
+                <img src="images/bash.png" alt="Bash">
+            </a>
+            <a target="_blank">
+                <img src="images/kali.png" alt="Kali Linux">
+            </a>
+            <a target="_blank">
+                <img src="images/js.png" alt="JavaScript">
+            </a>
+            <a target="_blank">
+                <img src="images/secure.png" alt="Seguridad">
+            </a>
+            <a target="_blank">
+                <img src="images/java.webp" alt="Java">
+            </a>
+            <a target="_blank">
+                <img src="images/sql.png" alt="SQL">
+            </a>
+            <a target="_blank">
+                <img src="images/tux.webp" alt="Linux Tux">
+            </a>
+            <a target="_blank">
+                <img src="images/mongo.svg" alt="MongoDB">
+            </a>
+            <a target="_blank">
+                <img src="images/redes.png" alt="Redes">
+            </a>
+            <a target="_blank">
+                <img src="images/html.png" alt="HTML">
+            </a>
+            <a target="_blank">
+                <img src="images/css.png" alt="CSS">
+            </a>
+            <a target="_blank">
+                <img src="images/docker.webp" alt="Docker">
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- <section class="videos">
+        <h2>Mis cursos Gratuitos</h2>
+        <div>
+            <div class="video">
+                <p class="video-title">Bash Scripting</p>
+                <a href="https://youtu.be/tNeRFm2jY7c?si=3_sZOz0ifqkHl_LE" target="_blank">
+                    <img src="https://img.youtube.com/vi/tNeRFm2jY7c/0.jpg" alt="Bash Scripting" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Linux</p>
+                <a href="https://youtu.be/M3AayeYuzMI?si=SKsIM7_GQUc3l3BM" target="_blank">
+                    <img src="https://img.youtube.com/vi/M3AayeYuzMI/0.jpg" alt="Linux" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Python</p>
+                <a href="https://youtu.be/1nn6orjuEI8?si=RuuiVCmb81LDxmjd" target="_blank">
+                    <img src="https://img.youtube.com/vi/1nn6orjuEI8/0.jpg" alt="Python" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Bases de Datos NoSQL</p>
+                <a href="https://youtu.be/in5p0W4OxdI?si=8vNPjsanIfHR9PN6" target="_blank">
+                    <img src="https://img.youtube.com/vi/in5p0W4OxdI/0.jpg" alt="Bases de Datos NoSQL" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Hacking Ético y Ciberseguridad</p>
+                <a href="https://www.youtube.com/watch?v=ZDvxqqSoyZs&list=PLMd59HZRUmEg539WgqJjbsvto4V3fRwn5&index=1" target="_blank">
+                    <img src="https://img.youtube.com/vi/ZDvxqqSoyZs/0.jpg" alt="Hacking Ético y Ciberseguridad" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Web Scraping con Python</p>
+                <a href="https://youtu.be/bK3EwIMHm94?si=DRG78EycC1QrFo3v" target="_blank">
+                    <img src="https://img.youtube.com/vi/bK3EwIMHm94/0.jpg" alt="Web Scraping con Python" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Escalada de Privilegios</p>
+                <a href="https://youtu.be/ginzuvA22Nw?si=NHNp_znO6uZRQffF" target="_blank">
+                    <img src="https://img.youtube.com/vi/ginzuvA22Nw/0.jpg" alt="Escalada de Privilegios" />
+                </a>
+            </div>
+            <div class="video">
+                <p class="video-title">Hacking Active Directory</p>
+                <a href="https://youtu.be/vDuPrPImO0I?si=K5vFE-FCsF3JRZsg" target="_blank">
+                    <img src="https://img.youtube.com/vi/vDuPrPImO0I/0.jpg" alt="Hacking Active Directory" />
+                </a>
+            </div>
+        </div>
+    </section> -->
+    
+    
+    
+
+     <section id="projects">
+        <h2>Mis Certificaciones</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <h3>Cybersecurity Analyst Cisco</h3>
+                <p>Cisco ha verificado que he completado con éxito la trayectoria profesional de Analista de Ciberseguridad Júnior con Cisco Networking Academy. Estoy capacitado en técnicas de monitoreo y protección de redes, incluyendo firewalls, seguridad en la nube y criptografía. Tengo experiencia en gestión de alertas de seguridad, evaluaciones de vulnerabilidad, y en la elaboración de planes de gestión de riesgos, así como en investigaciones forenses y planificación de respuesta a incidentes.</p>
+                <br>
+                <a href="https://www.credly.com/badges/3a051629-c316-43f4-8bed-5c2efd3e214d/public_url" target="_blank">
+                    <img src="images/junior-cybersecurity-analyst-career-path.1.png" alt="Proyecto 1" class="project-img">
+                </a>
+                          
+            </div>
+            <div class="project-item">
+                <h3>IBM Cybersecurity Fundamentals</h3>
+                <p>Esta certificación demuestra una comprensión fundamental de los conceptos, objetivos y prácticas de ciberseguridad. Incluye el conocimiento sobre grupos de amenazas cibernéticas, tipos de ataques, ingeniería social, estudios de caso, estrategias de seguridad en general, criptografía y enfoques comunes que utilizan las organizaciones para prevenir, detectar y responder a ciberataques. Además, ofrece una visión del mercado laboral, permitiendo a los beneficiarios utilizar este conocimiento para continuar su educación y explorar diversas oportunidades en el campo de la ciberseguridad.</p>
+                <br>
+                <a href="https://www.credly.com/badges/2ea3f9f1-f300-418f-9166-bc8678cf3d4b/public_url" target="_blank">
+                    <img src="images/cybersecurity-fundamentals.png" alt="Proyecto 1" class="project-img">
+                </a>
+            </div>
+            <div class="project-item">
+                <h3>Cyber Threat Management Cisco</h3>
+                <p>Cisco verifica que el titular de esta insignia ha completado con éxito el curso de Gestión de Amenazas Cibernéticas. Este nivel de credencial para estudiantes indica que el portador está familiarizado con las políticas de ciberseguridad y la gobernanza, asegurando que una organización cumpla con los estándares éticos y los marcos legales y regulatorios. Además, comprende cómo realizar una evaluación de vulnerabilidad de la red y elaborar un plan de gestión de riesgos, así como gestionar la respuesta post-incidente.</p>
+                <br>
+                <a href="https://www.credly.com/badges/e461dcbd-8098-4c5c-ae08-ed6d1b17126f/public_url" target="_blank">
+                    <img src="images/cyber-threat-management.png" alt="Proyecto 1" class="project-img">
+                </a>
+            </div>
+        </div>
+    </section> 
+
+    <!-- <section id="referencias-alumnos">
+        <h2>Referencias de la Comunidad 🔐</h2>
+        <div class="opiniones-container">
+            <div class="opinión">
+                <img src="images/ballena.jpg" alt="Foto de Alumno 1" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión">
+                <img src="images/academia.png" alt="Foto de Alumno 2" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión">
+                <img src="images/academia.png" alt="Foto de Alumno 3" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión">
+                <img src="images/docker.png" alt="Foto de Alumno 4" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión oculta">
+                <img src="images/academia.png" alt="Foto de Alumno 5" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión oculta">
+                <img src="images/academia.png" alt="Foto de Alumno 6" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión oculta">
+                <img src="images/python.webp" alt="Foto de Alumno 7" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+            <div class="opinión oculta">
+                <img src="images/docker.png" alt="Foto de Alumno 8" class="foto-alumno">
+                <h3>Alumno Feliz</h3>
+                <p>“Opinión”</p>
+            </div>
+        </div>
+        <button id="ver-mas" style="display: none;">Ver más</button>
+        <button id="ver-menos" style="display: none;">Ver menos</button>        
+    </section> -->
+
+   <!-- <section id="comunidad"> 
+        <h2>Nuestra Comunidad</h2>
+        <div class="comunidad-cards">
+          <div class="card">
+            <img src="images/discord.png" alt="Discord" class="card-icon">
+            <h3>Únete a nuestro Discord</h3>
+            <p>Conéctate con nuestra comunidad y comparte tus experiencias en ciberseguridad.</p>
+            <a href="https://discord.gg/cDyWMyW9rK" target="_blank" class="btn">Entrar al Discord</a>
+          </div>
+          <div class="card">
+            <img src="images/telegram.webp" alt="Telegram" class="card-icon">
+            <h3>Únete a nuestro Telegram</h3>
+            <p>Recibe actualizaciones y participa en debates directamente desde tu móvil.</p>
+            <a href="https://t.me/elpinguinohack" target="_blank" class="btn">Entrar al Telegram</a>
+          </div>
+        </div>
+    </section> -->
+      
+
+      
+
+    <section id="social-media">
+        <h3>Sígueme en mis redes sociales</h3>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/esteban111221/" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/esteban111221/" target="_blank" class="social-icon">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:" class="social-icon">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <a href="https://www.tiktok.com/@esteban1112216" target="_blank" class="social-icon">
+                <i class="bi bi-tiktok"></i>
+            </a>
+            <a href="https://www.youtube.com/@aresteban" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://x.com/estebanar111221" target="_blank" class="social-icon">
+                <i class="bi bi-x"></i>
+            </a>
+        </div>
+    </section>
+    
+    <footer class="text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 text-start">
+                    <p>&copy; 2024 - Todos los derechos reservados</p>
+                </div>
+                
+                <div class="col-4 text-end">
+                    <p style="color: white; font-weight: bold;">
+			            Powered By 
+			            <a href="https://www.linkedin.com/in/esteban111221/" target="_blank" rel="noopener noreferrer" style="color: white; font-weight: bold;">
+			              Adolfo Esteban Nuñez Cuellar
+			            </a>
+		            </p>
+                </div>
+            </div>
+        </div>
+        <!-- Efecto de olas -->
+        <div class="wave-container">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+        </div>
+    </footer>
+    
+    <script src="scripts/script.js"></script>
+    <script src="scripts/popup.js"></script>
+    <script src="scripts/ver-mas.js"></script>
+
+</body>
+</html>
