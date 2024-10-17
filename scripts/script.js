@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "Auditorías de ciberseguridad.",
             "Desarrollo web y securización de servidores.",
             "Programación con Python, Java y Bash.",
-            "Docencia de informática, hacking ético, ciberseguridad, bases de datos, etc.",
+            "Capacitacitador en informática, hacking ético, ciberseguridad, bases de datos.",
             "Gestión de Bases de datos SQL y NoSQL.",
             "Hardening sistemas linux."
 
